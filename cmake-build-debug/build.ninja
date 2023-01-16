@@ -105,6 +105,13 @@ build CMakeFiles/C__STL.dir/STL_map.cpp.obj: CXX_COMPILER__C__STL_Debug G$:/C++/
   OBJECT_DIR = CMakeFiles\C__STL.dir
   OBJECT_FILE_DIR = CMakeFiles\C__STL.dir
 
+build CMakeFiles/C__STL.dir/STL_set.cpp.obj: CXX_COMPILER__C__STL_Debug G$:/C++/C++STL/STL_set.cpp || cmake_object_order_depends_target_C__STL
+  DEP_FILE = CMakeFiles\C__STL.dir\STL_set.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu++20
+  INCLUDES = -IG:/C++/C++STL/.
+  OBJECT_DIR = CMakeFiles\C__STL.dir
+  OBJECT_FILE_DIR = CMakeFiles\C__STL.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target C__STL
@@ -113,7 +120,7 @@ build CMakeFiles/C__STL.dir/STL_map.cpp.obj: CXX_COMPILER__C__STL_Debug G$:/C++/
 #############################################
 # Link the executable C__STL.exe
 
-build C__STL.exe: CXX_EXECUTABLE_LINKER__C__STL_Debug CMakeFiles/C__STL.dir/run.cpp.obj CMakeFiles/C__STL.dir/STL_vector.cpp.obj CMakeFiles/C__STL.dir/STL_stack.cpp.obj CMakeFiles/C__STL.dir/STL_queue.cpp.obj CMakeFiles/C__STL.dir/deque.cpp.obj CMakeFiles/C__STL.dir/STL_deque.cpp.obj CMakeFiles/C__STL.dir/STL_priority_queue.cpp.obj CMakeFiles/C__STL.dir/STL_map.cpp.obj
+build C__STL.exe: CXX_EXECUTABLE_LINKER__C__STL_Debug CMakeFiles/C__STL.dir/run.cpp.obj CMakeFiles/C__STL.dir/STL_vector.cpp.obj CMakeFiles/C__STL.dir/STL_stack.cpp.obj CMakeFiles/C__STL.dir/STL_queue.cpp.obj CMakeFiles/C__STL.dir/deque.cpp.obj CMakeFiles/C__STL.dir/STL_deque.cpp.obj CMakeFiles/C__STL.dir/STL_priority_queue.cpp.obj CMakeFiles/C__STL.dir/STL_map.cpp.obj CMakeFiles/C__STL.dir/STL_set.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\C__STL.dir

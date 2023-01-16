@@ -10,4 +10,4 @@ add_executable(C__STL
         STL_container.h
         STL_vector.cpp
         STL_stack.cpp
-        STL_queue.cpp deque.cpp STL_deque.cpp STL_priority_queue.cpp STL_map.cpp)
+        STL_queue.cpp deque.cpp STL_deque.cpp STL_priority_queue.cpp STL_map.cpp STL_set.cpp)

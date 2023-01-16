@@ -9,7 +9,8 @@ int main(){
 
     //priority_queue_func();
 
-    map_func();
+    //map_func();
 
+    set_func();
     return 0;
 }

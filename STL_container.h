@@ -10,6 +10,7 @@
 # include <map>
 # include <iostream>
 # include <algorithm>
+# include <set>
 
 using namespace std;
 
@@ -30,6 +31,10 @@ void deque_sort();
 // priority_queue
 void priority_queue_func();
 
+
+// set和map底层都由红黑树实现，接口类似
 // map
 void map_func();
+
+void set_func();
 #endif
