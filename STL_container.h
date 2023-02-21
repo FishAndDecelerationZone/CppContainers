@@ -11,6 +11,8 @@
 # include <iostream>
 # include <algorithm>
 # include <set>
+# include <string>
+# include <utility>    // pair
 
 using namespace std;
 
@@ -37,4 +39,13 @@ void priority_queue_func();
 void map_func();
 
 void set_func();
+
+
+// pair
+void pair_func();
+
+
+// string
+void string_func();
+
 #endif

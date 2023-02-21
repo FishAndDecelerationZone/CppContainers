@@ -11,6 +11,8 @@ int main(){
 
     //map_func();
 
-    set_func();
+    // set_func();
+
+    pair_func();
     return 0;
 }
