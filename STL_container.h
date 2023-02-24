@@ -47,5 +47,5 @@ void pair_func();
 
 // string
 void string_func();
-
+void string_basic();
 #endif

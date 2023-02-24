@@ -13,6 +13,9 @@ int main(){
 
     // set_func();
 
-    pair_func();
+    //pair_func();
+
+    string_func();
+
     return 0;
 }
