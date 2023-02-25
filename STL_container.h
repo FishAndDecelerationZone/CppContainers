@@ -14,6 +14,9 @@
 # include <string>
 # include <utility>    // pair
 # include <bitset>
+# include <array>
+# include <tuple>
+
 
 using namespace std;
 
@@ -49,5 +52,12 @@ void string_basic();
 
 // bitset
 void bitset_func();
+
+// arrary
+void array_func();
+
+// tuple
+void tuple_func();
+
 
 #endif

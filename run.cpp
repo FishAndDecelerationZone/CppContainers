@@ -17,7 +17,10 @@ int main(){
 
     //string_func();
 
-    bitset_func();
+    //bitset_func();
 
+    //array_func();
+
+    tuple_func();
     return 0;
 }

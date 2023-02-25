@@ -7,4 +7,4 @@ include_directories(.)
 
 add_executable(CppContainers
         run.cpp
-        STL_container.h STL_vector.cpp STL_stack.cpp STL_queue.cpp STL_deque.cpp STL_priority_queue.cpp STL_map.cpp STL_set.cpp STL_string.cpp STL_pair.cpp STL_bitset.cpp)
+        STL_container.h STL_vector.cpp STL_stack.cpp STL_queue.cpp STL_deque.cpp STL_priority_queue.cpp STL_map.cpp STL_set.cpp STL_string.cpp STL_pair.cpp STL_bitset.cpp STL_array.cpp STL_tuple.cpp)
