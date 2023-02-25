@@ -15,7 +15,9 @@ int main(){
 
     //pair_func();
 
-    string_func();
+    //string_func();
+
+    bitset_func();
 
     return 0;
 }

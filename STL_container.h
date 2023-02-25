@@ -13,6 +13,7 @@
 # include <set>
 # include <string>
 # include <utility>    // pair
+# include <bitset>
 
 using namespace std;
 
@@ -33,19 +34,20 @@ void deque_sort();
 // priority_queue
 void priority_queue_func();
 
-
 // set和map底层都由红黑树实现，接口类似
 // map
 void map_func();
 
 void set_func();
 
-
 // pair
 void pair_func();
-
 
 // string
 void string_func();
 void string_basic();
+
+// bitset
+void bitset_func();
+
 #endif
